@@ -40,63 +40,6 @@ To get started with the project, follow these steps:
 4. **Open the Application**:
     Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-## Project Structure
-looploom-rugs-store/
-├── node_modules/
-├── public/
-│   ├── images/
-│   │   ├── logo.png
-│   │   ├── rug1.jpg
-│   │   └── ...
-│   ├── favicon.ico
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── common/
-│   │   │   ├── Header.js
-│   │   │   ├── Footer.js
-│   │   │   └── ...
-│   │   ├── product/
-│   │   │   ├── ProductCard.js
-│   │   │   ├── ProductList.js
-│   │   │   └── ...
-│   │   └── ...
-│   ├── pages/
-│   │   ├── api/
-│   │   │   ├── products/
-│   │   │   │   ├── index.js
-│   │   │   │   └── [id].js
-│   │   │   ├── users/
-│   │   │   │   ├── index.js
-│   │   │   │   └── [id].js
-│   │   │   └── ...
-│   │   ├── _app.js
-│   │   ├── index.js
-│   │   ├── products.js
-│   │   ├── about.js
-│   │   ├── contact.js
-│   │   └── ...
-│   ├── styles/
-│   │   ├── globals.css
-│   │   ├── Header.module.css
-│   │   ├── Footer.module.css
-│   │   ├── ProductCard.module.css
-│   │   └── ...
-│   ├── utils/
-│   │   ├── api.js
-│   │   └── ...
-│   ├── lib/
-│   │   ├── db.js
-│   │   └── ...
-│   ├── hooks/
-│   │   └── useProducts.js
-│   └── context/
-│       └── UserContext.js
-├── .gitignore
-├── package.json
-├── README.md
-├── next.config.js
-└── .env.local
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
